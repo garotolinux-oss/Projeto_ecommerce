@@ -23,9 +23,11 @@ public abstract class Usuario {
     public void setSenha(String senha) {
         this.senha = senha;
     }
-
     
-
-    
+    //to string
+    @Override
+    public String toString() {
+        return "Usuario [nome=" + nome + ", senha=" + senha + "]";
+    }
 
 }
