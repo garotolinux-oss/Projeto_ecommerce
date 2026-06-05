@@ -4,8 +4,8 @@ public class Empreendedor extends Usuario{
     private String nomeEmpreendimento;
     private int id_empresa; 
 
-    public Empreendedor(String nome, String senha, String nomeEmpreendimento) {
-        super(nome, senha);
+    public Empreendedor(String nome, String senha, String email,String nomeEmpreendimento) {
+        super(nome, senha, email);
         this.nomeEmpreendimento = nomeEmpreendimento;
         //TODO Auto-generated constructor stub
     }
